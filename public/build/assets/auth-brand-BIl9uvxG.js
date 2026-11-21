@@ -1,0 +1,1 @@
+import{j as a,L as s,$ as n,f as o}from"./main-CB0LCjzh.js";function i({className:r}){return a.jsx(s,{href:"/dashboard","aria-label":"DropX Admin dashboard",className:o("inline-flex",r),children:a.jsx(n,{})})}export{i as A};

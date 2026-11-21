@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["resources/js/*"],
+      "next/link": ["resources/js/shims/next-link.tsx"],
+      "next/navigation": ["resources/js/shims/next-navigation.tsx"],
+      "next/image": ["resources/js/shims/next-image.tsx"],
+      "next-themes": ["resources/js/shims/next-themes.tsx"],
+      "next": ["resources/js/shims/next.ts"]
+    },
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "resources/js",
+    "vite.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "public",
+    "vendor"
+  ]
+}
