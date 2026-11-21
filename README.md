@@ -21,7 +21,7 @@ A modern, full-stack Admin & Dashboard application converted from **DropX Admin*
 
 ## 📸 Project Preview
 
-![InApp Laravel React Dashboard](public/assets/images/Screenshot.png)
+![DropX Admin Laravel React Dashboard](public/images/Screenshot.png)
 
 
 ---
